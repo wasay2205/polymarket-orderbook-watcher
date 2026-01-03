@@ -1,0 +1,82 @@
+/**
+ * Calculate the Unix timestamp for the current 15-minute window start.
+ * Windows are aligned to clock time (e.g., 8:00, 8:15, 8:30, 8:45).
+ */
+export function getCurrent15MinWindowTimestamp() {
+	const now = Math.floor(Date.now() / 1000);
+	const windowSeconds = 15 * 60; // 15 minutes
+	return Math.floor(now / windowSeconds) * windowSeconds;
+}
+
+/**
+ * Get the next 15-minute window timestamp
+ */
+export function getNext15MinWindowTimestamp() {
+	return getCurrent15MinWindowTimestamp() + 15 * 60;
+}
+
+/**
+ * Calculate milliseconds until next window starts
+ */
+export function getMsUntilNextWindow() {
+	const nextWindow = getNext15MinWindowTimestamp();
+	return nextWindow * 1000 - Date.now();
+}
+
+/**
+ * Format timestamp to readable time string
+ */
+export function formatWindowTime(timestamp) {
+	const date = new Date(timestamp * 1000);
+	return date.toLocaleTimeString('en-US', {
+		hour: '2-digit',
+		minute: '2-digit',
+		timeZoneName: 'short',
+	});
+}
+
+/**
+ * Build the market slug for the 15-minute BTC up/down market
+ */
+export function buildMarketSlug(timestamp) {
+	return `btc-updown-15m-${timestamp}`;
+}
+
+/**
+ * Fetch market data from Gamma API
+ */
+export async function fetchMarketData(slug) {
+	const tid = Date.now();
+	const url = `https://gamma-api.polymarket.com/events/slug/${slug}?tid=${tid}`;
+
+	const response = await fetch(url);
+	if (!response.ok) {
+		throw new Error(`Failed to fetch market: ${response.status}`);
+	}
+
+	return response.json();
+}
+
+/**
+ * Extract token IDs from market data
+ * Returns [upTokenId, downTokenId]
+ */
+export function extractTokenIds(marketData) {
+	if (!marketData?.markets?.[0]?.clobTokenIds) {
+		return null;
+	}
+
+	const tokenIds = JSON.parse(marketData.markets[0].clobTokenIds);
+	return tokenIds;
+}
+
+/**
+ * Parse outcomes from market data
+ */
+export function parseOutcomes(marketData) {
+	if (!marketData?.markets?.[0]?.outcomes) {
+		return ['Up', 'Down'];
+	}
+
+	return JSON.parse(marketData.markets[0].outcomes);
+}
